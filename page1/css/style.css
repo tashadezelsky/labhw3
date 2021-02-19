@@ -74,8 +74,6 @@
 }
 
 .wrapper {
-    flex-wrap: wrap;
-    display: flex;
     background-color: coral; 
     align-self: flex-start;
     justify-content: center;
@@ -84,9 +82,11 @@
     margin: 3rem;
 }
 
-.lyricsj {
+img {
+    display: flex;
     flex-wrap: wrap;
-    font-size: 6rem;
+    padding: 3rem;
 }
+
 
  
