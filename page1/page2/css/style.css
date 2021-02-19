@@ -1,4 +1,4 @@
-@font-face {
+ @font-face {
     font-family: lchairline;
     src: url(lchairline.ttf);
  }
@@ -48,15 +48,15 @@
 }
 
 .container {
-    background-color: rgb(58, 253, 139);
+    background-color: crimson;
     display: flex;
     flex-wrap: wrap;
-    margin: 2rem; 
+    margin: 3rem; 
     justify-content: center;
 }
 
 .container1 {
-    background-color: rebeccapurple;
+    background-color: gold;
     border-radius: 2rem;
     display: flex;
     flex-wrap: wrap;
@@ -65,7 +65,6 @@
     margin: 3rem;
     margin-bottom: 1rem;
     flex-direction: column;
-    height: 6rem;
 }
 
 .audio {
@@ -75,31 +74,33 @@
 }
 
 .wrapper {
-    background-color: rgb(90, 126, 243); 
+    background-color: coral; 
+    align-self: flex-start;
+    justify-content: center;
+    align-content: center;
     border-radius: 1rem;
     margin: 3rem;
-
 }
 
+
 .lyricsj {
-    font-size: 7rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    line-height: 8rem;
-    text-align: center;
+    font-size: 6rem;
+    padding: 2rem;
+    margin-top: -2rem;
 }
 
 .lyricse {
     font-size: 4rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    line-height: 5rem;
-    margin-bottom: 3rem;
-    text-align: center;
+    padding: 2rem;
+    margin-top: -6rem;
+
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: gold;
+
 }
 
+
+ 
