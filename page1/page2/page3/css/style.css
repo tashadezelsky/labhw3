@@ -48,7 +48,7 @@
 }
 
 .container {
-    background-color: crimson;
+    background-color: rgb(58, 253, 139);
     display: flex;
     flex-wrap: wrap;
     margin: 2rem; 
@@ -56,7 +56,7 @@
 }
 
 .container1 {
-    background-color: gold;
+    background-color: rebeccapurple;
     border-radius: 2rem;
     display: flex;
     flex-wrap: wrap;
@@ -75,7 +75,7 @@
 }
 
 .wrapper {
-    background-color: coral; 
+    background-color: rgb(90, 126, 243); 
     border-radius: 1rem;
     margin: 3rem;
 
@@ -100,5 +100,6 @@
 
 a {
     text-decoration: none;
+    color: black;
 }
 
